@@ -12,11 +12,3 @@ function increaseRankBy(n){
     lis[i].innerHTML = parseInt(newRank[i].innerHTML) + n;
   }
 }
-
-function deepestChild(){
-  
-  var divs = document.querySelectorAll("#grand-node");
-  var lastItem = divs[0].querySelectorAll('div');
-  return lastItem[]
-
-}
